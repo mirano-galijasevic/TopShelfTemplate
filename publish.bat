@@ -1,0 +1,1 @@
+dotnet publish TopShelfTemplate\TopShelfTemplate.csproj -r win-x64

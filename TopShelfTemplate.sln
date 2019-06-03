@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopShelfTemplate", "TopShelfTemplate\TopShelfTemplate.csproj", "{43AAD6F1-E9E5-4457-92BA-FB016A1A3F2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{D8BF635F-8517-4109-A3D1-C22C6E88B1FD}"
+	ProjectSection(SolutionItems) = preProject
+		publish.bat = publish.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43AAD6F1-E9E5-4457-92BA-FB016A1A3F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AAD6F1-E9E5-4457-92BA-FB016A1A3F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AAD6F1-E9E5-4457-92BA-FB016A1A3F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AAD6F1-E9E5-4457-92BA-FB016A1A3F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EDDE1A2-30C7-4FB8-8E69-255E095D3243}
+	EndGlobalSection
+EndGlobal
