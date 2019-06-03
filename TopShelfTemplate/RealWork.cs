@@ -95,6 +95,7 @@ namespace TopShelfTemplate
         {
             // Do some cleanup here, depending on what specifically you are doing
             _internalResetEvent.Set();
+            Log.Information( "In RealWork.Stop(), received signal to stop." );
 
             try
             {

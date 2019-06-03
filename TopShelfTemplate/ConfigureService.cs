@@ -30,7 +30,7 @@ namespace TopShelfTemplate
                     {
                         hostSettings.ConstructUsing( () => container.Resolve<MyService>() );
 
-                        hostSettings.WhenStarted( s => s.StartService() );
+                        hostSettings.WhenStarted( s => s.StartService() ); 
                         hostSettings.WhenStopped( s => s.StopService() );
                     } );
 

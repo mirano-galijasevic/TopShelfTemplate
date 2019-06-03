@@ -50,7 +50,8 @@ namespace TopShelfTemplate
 
             // set event to signalled
             Log.Information( "Stop is called from SCM, now signalling service to stop..." );
-            _manualResetEvent.Set(); 
+            _manualResetEvent.Set();
+            _realWorkService.Stop();
         }
     }
 }
